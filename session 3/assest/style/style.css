@@ -1,0 +1,18 @@
+.div1{
+     box-sizing: content-box;
+     width: 100px;
+     height: 100px;
+     padding: 20px;
+     border: 4px solid black;
+     /*Width calculation : 100 + 20(Left padding) + 20(Right padding) + 4(Left border) + 4(Right border) = 148*/
+     /*Height calculation : 100 + 20(Top padding) + 20(Bottom padding) + 4(Top border) + 4(Bottom border) = 148*/
+}
+.div2{
+      box-sizing: border-box;
+      width: 100px;
+      height: 100px;
+      padding: 150px;
+      border: 100px solid black;
+     /*Width calculation : 100(Total Width) - (150(Left padding) + 150(Right padding) + 100(Left border) + 100(Right border)) = -400*/
+     /*Height calculation : 100(Total Height) - (150(Top padding) + 150(Bottom padding) + 100(Top border) + 100(Bottom border)) = -400*/
+}

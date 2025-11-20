@@ -1,0 +1,17 @@
+/* html, body {
+  height: 100%;
+  width: 100;
+  margin: 0;
+  padding: 0;
+}
+.conteiner {
+  background-image: url(1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+.container {
+  display: flex;
+}
+.itema { order: 3; }  /* آخر نمایش داده می‌شود */
+.itemb { order: 1; }  /* اول نمایش داده می‌شود */
+.itemc { order: 2; }  /* دوم نمایش داده می‌شود */

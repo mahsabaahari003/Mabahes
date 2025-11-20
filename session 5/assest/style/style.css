@@ -1,0 +1,30 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.squares{
+    width:480px;
+    height: 95px;
+    border: 1px dashed lightgrey ;
+    border-radius: 3px;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: center; 
+    padding: 12px;
+    background-color: white;
+}
+.square{
+    width: 400px;
+    height: 90px;
+    flex: 1;
+    background-color: #7b68ee;
+    border-radius: 3px;
+    transition: all 0.5s ease-in-out;
+}
+.square:active{
+    flex: 2;
+    background-color: #ffa07a;
+}
